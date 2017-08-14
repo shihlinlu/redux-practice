@@ -1,0 +1,37 @@
+{
+  "name": "redux-practice",
+  "version": "1.0.0",
+  "description": "redux and react practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack-dev-server --content-base dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shihlinlu/redux-practice.git"
+  },
+  "author": "Shihlin Lu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shihlinlu/redux-practice/issues"
+  },
+  "homepage": "https://github.com/shihlinlu/redux-practice#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "redux": "^3.7.2",
+    "semantic-ui-react": "^0.71.2",
+    "style-loader": "^0.18.2"
+  }
+}
