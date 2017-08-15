@@ -2,7 +2,7 @@ import React from 'react'
 
 class Counter2 extends React.Component {
     render () {
-        // function that passes initial state of 0 and action
+        // reducer
         const counter = (state = 0, action ) => {
             switch (action.type) {
                 case 'INCREMENT':
