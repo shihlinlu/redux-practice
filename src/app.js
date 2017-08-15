@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Home from './modules/home'
+import Counter from './modules/counter'
+import Counter2 from './modules/counter2'
 
 require('../static/css/homePanel.css');
 
@@ -8,7 +9,8 @@ class Main extends React.Component {
   render() {
     return (
       <div>
-        <Home />
+        <Counter />
+        <Counter2 />
       </div>
     )
   }

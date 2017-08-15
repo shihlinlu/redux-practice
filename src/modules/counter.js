@@ -1,7 +1,7 @@
 import React from 'react'
 import { createStore } from 'redux'
 
-class Home extends React.Component {
+class Counter extends React.Component {
     render () {
         // function that passes initial state of 0 and action
         const counter = (state = 0, action ) => {
@@ -44,4 +44,4 @@ class Home extends React.Component {
     }
 }
 
-export default Home;
+export default Counter;
